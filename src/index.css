@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.description-list{
+    height: calc(100vh - 216px); 
+    margin: 20px 0 0;
+    overflow: auto;
+}
+
+.description-list>li{
+    background-color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.description-list>li:last-child{
+    margin-bottom: 0px;
+}
